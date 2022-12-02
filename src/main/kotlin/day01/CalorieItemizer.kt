@@ -11,7 +11,7 @@ class CalorieItemizer(filePath: String) {
         elves = getElves(filePath)
     }
 
-    fun findTotalMaximumCaloriesForTopElves(numberOfElves: Int): Int {
+    fun getTotalCaloriesForTopElves(numberOfElves: Int): Int {
         val elfTotals = elves.map { it.sum() }
         val calorieTotal = elfTotals
             .sortedDescending()
@@ -40,7 +40,7 @@ class CalorieItemizer(filePath: String) {
                 calorieList.add(parseAttempt)
             }
         }.also {
-            if (!calorieList.isEmpty()) {
+            if (calorieList.isNotEmpty()) {
                 elves.add(calorieList)
             }
         }
