@@ -1,5 +1,6 @@
 package day02
 
+import fileHelper.FileHelper
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
@@ -10,7 +11,7 @@ internal class RockPaperScissorsCalculatorTest {
 
     @BeforeEach
     fun setup() {
-        rockPaperScissorsCalculator = RockPaperScissorsCalculator("src/test/kotlin/day02/input.txt")
+        rockPaperScissorsCalculator = RockPaperScissorsCalculator(FileHelper.testFileForDay(2))
     }
 
     @Test

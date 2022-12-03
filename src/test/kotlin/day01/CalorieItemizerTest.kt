@@ -1,5 +1,6 @@
 package day01
 
+import fileHelper.FileHelper
 import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.*
 
@@ -8,7 +9,7 @@ internal class CalorieItemizerTest {
 
     @BeforeEach
     fun setup() {
-        itemizer = CalorieItemizer("src/test/kotlin/day01/input.txt")
+        itemizer = CalorieItemizer(FileHelper.testFileForDay(1))
     }
 
     @Test

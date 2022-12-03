@@ -15,6 +15,7 @@
         <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -57,16 +58,16 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="RucksackReorganizerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RockPaperScissorsCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day03" />
-      <option name="MAIN_CLASS_NAME" value="day03.RucksackReorganizerTest" />
+      <option name="PACKAGE_NAME" value="day02" />
+      <option name="MAIN_CLASS_NAME" value="day02.RockPaperScissorsCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,10 +128,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.RockPaperScissorsCalculatorTest" />
         <item itemvalue="JUnit.RucksackReorganizerTest (4)" />
         <item itemvalue="JUnit.RucksackReorganizerTest (3)" />
         <item itemvalue="JUnit.RucksackReorganizerTest (2)" />
-        <item itemvalue="JUnit.RucksackReorganizerTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -144,25 +145,11 @@
       <updated>1669899661598</updated>
       <workItem from="1669918031048" duration="961000" />
       <workItem from="1669933606038" duration="88000" />
-      <workItem from="1669933697357" duration="8539000" />
+      <workItem from="1669933697357" duration="9171000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/day03/RucksackReorganizer.kt</url>
-          <line>14</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

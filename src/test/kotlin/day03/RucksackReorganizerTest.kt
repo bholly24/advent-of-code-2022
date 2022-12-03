@@ -1,11 +1,12 @@
 package day03
 
+import fileHelper.FileHelper
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
 
 internal class RucksackReorganizerTest {
-    private val rucksackReorganizer = RucksackReorganizer("src/test/kotlin/day03/input.txt")
+    private val rucksackReorganizer = RucksackReorganizer(FileHelper.testFileForDay(3))
 
     @Test
     fun getCostOfMispackedItems() {
