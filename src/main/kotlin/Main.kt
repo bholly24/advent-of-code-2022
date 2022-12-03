@@ -1,5 +1,6 @@
 import day01.CalorieItemizer
 import day02.RockPaperScissorsCalculator
+import day03.RucksackReorganizer
 import printer.AdventPrinter
 
 fun main(args: Array<String>) {
@@ -16,4 +17,10 @@ fun main(args: Array<String>) {
     rockPaperScissorsCalculator.scoreSimpleSuggestions()
     AdventPrinter.partTwo(2)
     rockPaperScissorsCalculator.scoreReactiveResponses()
+
+    AdventPrinter.partOne(3)
+    val rucksackReorganizer = RucksackReorganizer("src/main/kotlin/day03/input.txt")
+    rucksackReorganizer.getCostOfMispackedItem()
+    AdventPrinter.partTwo(3)
+    rucksackReorganizer.getCostOfBadges()
 }
