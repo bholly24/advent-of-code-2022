@@ -13,9 +13,9 @@
         <option value="Kotlin Interface" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -53,66 +53,67 @@
       <recent name="day03" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day04" />
       <recent name="day03" />
       <recent name="day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="RockPaperScissorsCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CleanupCoordinatorTest">
+    <configuration name="CleanupCoordinatorTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day02" />
-      <option name="MAIN_CLASS_NAME" value="day02.RockPaperScissorsCalculatorTest" />
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.CleanupCoordinatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RucksackReorganizerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CleanupCoordinatorTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day03" />
-      <option name="MAIN_CLASS_NAME" value="day03.RucksackReorganizerTest" />
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.CleanupCoordinatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RucksackReorganizerTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CleanupCoordinatorTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day03" />
-      <option name="MAIN_CLASS_NAME" value="day03.RucksackReorganizerTest" />
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.CleanupCoordinatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RucksackReorganizerTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CleanupCoordinatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day03" />
-      <option name="MAIN_CLASS_NAME" value="day03.RucksackReorganizerTest" />
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.CleanupCoordinatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CleanupCoordinatorTest" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="JUnit.RockPaperScissorsCalculatorTest" />
-        <item itemvalue="JUnit.RucksackReorganizerTest (4)" />
-        <item itemvalue="JUnit.RucksackReorganizerTest (3)" />
-        <item itemvalue="JUnit.RucksackReorganizerTest (2)" />
+        <item itemvalue="JUnit.CleanupCoordinatorTest (4)" />
+        <item itemvalue="JUnit.CleanupCoordinatorTest (3)" />
+        <item itemvalue="JUnit.CleanupCoordinatorTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +146,7 @@
       <updated>1669899661598</updated>
       <workItem from="1669918031048" duration="961000" />
       <workItem from="1669933606038" duration="88000" />
-      <workItem from="1669933697357" duration="9171000" />
+      <workItem from="1669933697357" duration="13898000" />
     </task>
     <servers />
   </component>

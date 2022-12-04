@@ -1,6 +1,7 @@
 import day01.CalorieItemizer
 import day02.RockPaperScissorsCalculator
 import day03.RucksackReorganizer
+import day04.CleanupCoordinator
 import fileHelper.FileHelper
 import printer.AdventPrinter
 
@@ -24,4 +25,10 @@ fun main() {
     rucksackReorganizer.getCostOfMispackedItem()
     AdventPrinter.partTwo(3)
     rucksackReorganizer.getCostOfBadges()
+
+    AdventPrinter.partOne(4)
+    val cleanupCoordinator = CleanupCoordinator(FileHelper.puzzleFileForDay(4))
+    cleanupCoordinator.countTotallyOverlappingAssignments()
+    AdventPrinter.partTwo(3)
+    cleanupCoordinator.countOverlappingAssignments()
 }
