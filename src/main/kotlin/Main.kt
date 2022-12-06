@@ -3,6 +3,7 @@ import day02.RockPaperScissorsCalculator
 import day03.RucksackReorganizer
 import day04.CleanupCoordinator
 import day05.StackOrganizer
+import day06.SignalDetector
 import fileHelper.FileHelper
 import printer.AdventPrinter
 
@@ -38,4 +39,10 @@ fun main() {
     stackOrganizer.organizeOneAtATime()
     AdventPrinter.partTwo(5)
     stackOrganizer.organizeAllAtOnce()
+
+    AdventPrinter.partOne(6)
+    val signalDetector = SignalDetector(FileHelper.puzzleFileForDay(6))
+    signalDetector.detectUniqueSequenceOfFour()
+    AdventPrinter.partTwo(6)
+    signalDetector.detectUniqueSequenceOfFourteen()
 }

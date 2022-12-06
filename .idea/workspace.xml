@@ -53,59 +53,60 @@
       <recent name="day03" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day06" />
       <recent name="day05" />
       <recent name="day04" />
       <recent name="day03" />
       <recent name="day02" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StackOrganizerTest">
-    <configuration name="StackOrganizerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="SignalDetectorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.*" />
+          <option name="PATTERN" value="day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day05" />
-      <option name="MAIN_CLASS_NAME" value="day05.StackOrganizerTest" />
+      <option name="PACKAGE_NAME" value="day06" />
+      <option name="MAIN_CLASS_NAME" value="day06.SignalDetectorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOrganizerTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignalDetectorTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.*" />
+          <option name="PATTERN" value="day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day05" />
-      <option name="MAIN_CLASS_NAME" value="day05.StackOrganizerTest" />
+      <option name="PACKAGE_NAME" value="day06" />
+      <option name="MAIN_CLASS_NAME" value="day06.SignalDetectorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOrganizerTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignalDetectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.*" />
+          <option name="PATTERN" value="day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day05" />
-      <option name="MAIN_CLASS_NAME" value="day05.StackOrganizerTest" />
+      <option name="PACKAGE_NAME" value="day06" />
+      <option name="MAIN_CLASS_NAME" value="day06.SignalDetectorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOrganizerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackOrganizerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StackOrganizerTest" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="JUnit.StackOrganizerTest (4)" />
-        <item itemvalue="JUnit.StackOrganizerTest (3)" />
-        <item itemvalue="JUnit.StackOrganizerTest (2)" />
+        <item itemvalue="JUnit.SignalDetectorTest (2)" />
+        <item itemvalue="JUnit.SignalDetectorTest (1)" />
+        <item itemvalue="JUnit.SignalDetectorTest" />
+        <item itemvalue="JUnit.StackOrganizerTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,7 @@
       <workItem from="1669918031048" duration="961000" />
       <workItem from="1669933606038" duration="88000" />
       <workItem from="1669933697357" duration="14551000" />
-      <workItem from="1670182411744" duration="9316000" />
+      <workItem from="1670182411744" duration="11284000" />
     </task>
     <servers />
   </component>
