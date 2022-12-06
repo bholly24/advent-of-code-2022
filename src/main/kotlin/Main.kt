@@ -2,6 +2,7 @@ import day01.CalorieItemizer
 import day02.RockPaperScissorsCalculator
 import day03.RucksackReorganizer
 import day04.CleanupCoordinator
+import day05.StackOrganizer
 import fileHelper.FileHelper
 import printer.AdventPrinter
 
@@ -29,6 +30,12 @@ fun main() {
     AdventPrinter.partOne(4)
     val cleanupCoordinator = CleanupCoordinator(FileHelper.puzzleFileForDay(4))
     cleanupCoordinator.countTotallyOverlappingAssignments()
-    AdventPrinter.partTwo(3)
+    AdventPrinter.partTwo(4)
     cleanupCoordinator.countOverlappingAssignments()
+
+    AdventPrinter.partOne(5)
+    val stackOrganizer = StackOrganizer(FileHelper.puzzleFileForDay(5))
+    stackOrganizer.organizeOneAtATime()
+    AdventPrinter.partTwo(5)
+    stackOrganizer.organizeAllAtOnce()
 }
