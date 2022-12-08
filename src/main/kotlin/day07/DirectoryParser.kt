@@ -1,6 +1,5 @@
 package day07
 
-import java.math.BigInteger
 import java.io.File as JavaFile
 
 class DirectoryParser(filePath: String) {
@@ -10,16 +9,18 @@ class DirectoryParser(filePath: String) {
         fileSystem = parseCommandsAndOutput(filePath)
     }
 
-    fun getSize(maxSize: Int): BigInteger {
+    fun getSize(maxSize: Int): Int {
         val total = addTotalSizesForMax(fileSystem, maxSize)
         println("Total files for directories with max size of $maxSize is $total")
         return total
     }
 
     fun getDirectoryToFreeUpSpace(): Int {
+        val maxStorage = 70000000
+        val neededSpace = 30000000
         val totalUsedSpace = parseSize(fileSystem)
-        val unusedSpace = 70000000 - totalUsedSpace
-        val directorySizeToDelete = 30000000 - unusedSpace
+        val unusedSpace = maxStorage - totalUsedSpace
+        val directorySizeToDelete = neededSpace - unusedSpace
         val dirToDelete = findDirectoryNearestToValue(fileSystem, directorySizeToDelete, parseSize(fileSystem))
         println("Directory that should be deleted has size of $dirToDelete")
         return dirToDelete
@@ -28,7 +29,6 @@ class DirectoryParser(filePath: String) {
     private fun findDirectoryNearestToValue(dir: Directory, size: Int, closestValue: Int): Int {
         var value = closestValue
         val valueToCheck = parseSize(dir)
-        println(parseSize(dir))
         if (valueToCheck in size until closestValue) {
             value = valueToCheck
         }
@@ -49,14 +49,14 @@ class DirectoryParser(filePath: String) {
         return size
     }
 
-    private fun addTotalSizesForMax(dir: Directory, maxSize: Int): BigInteger {
-        var total = (0).toBigInteger()
+    private fun addTotalSizesForMax(dir: Directory, maxSize: Int): Int {
+        var total = 0
         val parse = parseSize(dir)
         if (parse in 1..maxSize) {
-            total = total.plus(parse.toBigInteger())
+            total += parse
         }
         dir.directories.forEach {
-            total = total.plus(addTotalSizesForMax(it, maxSize))
+            total += addTotalSizesForMax(it, maxSize)
         }
         return total
     }

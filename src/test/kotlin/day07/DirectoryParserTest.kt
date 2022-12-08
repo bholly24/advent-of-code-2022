@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 internal class DirectoryParserTest {
-    val directoryParser = DirectoryParser(FileHelper.testFileForDay(7))
+    private val directoryParser = DirectoryParser(FileHelper.testFileForDay(7))
 
     @Test
     fun test() {
@@ -15,11 +15,10 @@ internal class DirectoryParserTest {
         assertEquals("a", dir.directories.first().path)
     }
 
-    // I made the test file more complicated to better challenge recursion depth
+    // I made the test file more complicated to better challenge recursion depth and troubleshoot
     @Test
     fun getDirectorySizesOfMax() {
-        assertEquals((96397).toBigInteger(), directoryParser.getSize(100000))
-//        assertEquals((96397).toBigInteger(), directoryParser.getTotal())
+        assertEquals(96397, directoryParser.getSize(100000))
     }
 
     @Test
