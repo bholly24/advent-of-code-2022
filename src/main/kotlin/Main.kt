@@ -4,6 +4,8 @@ import day03.RucksackReorganizer
 import day04.CleanupCoordinator
 import day05.StackOrganizer
 import day06.SignalDetector
+import day07.DirectoryParser
+import day08.TreeCounter
 import fileHelper.FileHelper
 import printer.AdventPrinter
 
@@ -45,4 +47,16 @@ fun main() {
     signalDetector.detectUniqueSequenceOfFour()
     AdventPrinter.partTwo(6)
     signalDetector.detectUniqueSequenceOfFourteen()
+
+    AdventPrinter.partOne(7)
+    val directoryParser = DirectoryParser(FileHelper.puzzleFileForDay(7))
+    directoryParser.getSize(100000)
+    AdventPrinter.partTwo(7)
+    directoryParser.getDirectoryToFreeUpSpace()
+
+    AdventPrinter.partOne(8)
+    val treeCounter = TreeCounter(FileHelper.puzzleFileForDay(8))
+    treeCounter.getTotalVisibleTrees()
+    AdventPrinter.partTwo(8)
+    treeCounter.getMaxScenicScore()
 }
