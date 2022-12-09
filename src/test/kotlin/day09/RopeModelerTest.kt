@@ -10,17 +10,17 @@ internal class RopeModelerTest {
 
     @Test
     fun getTotalListOfPositions() {
-        assertEquals(13, ropeModeler.getTotalListOfPositionsForLength(2))
+        assertEquals(13, ropeModeler.getUniquePositionsVisitedForRope(2))
     }
 
     @Test
     fun getTotalPositionsForLengthNine() {
-        assertEquals(1, ropeModeler.getTotalListOfPositionsForLength(10))
+        assertEquals(1, ropeModeler.getUniquePositionsVisitedForRope(10))
     }
 
     @Test
     fun getTotalPositionsForNineLarger() {
         val longRopeModeler = RopeModeler(FileHelper.getAdditionalTestFile(9, "input-long"))
-        assertEquals(36, longRopeModeler.getTotalListOfPositionsForLength(10))
+        assertEquals(36, longRopeModeler.getUniquePositionsVisitedForRope(10))
     }
 }

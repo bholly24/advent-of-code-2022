@@ -63,7 +63,7 @@ fun main() {
 
     AdventPrinter.partOne(9)
     val ropeModeler = RopeModeler(FileHelper.puzzleFileForDay(9))
-    ropeModeler.getTotalListOfPositionsForLength(2)
+    ropeModeler.getUniquePositionsVisitedForRope(2)
     AdventPrinter.partTwo(9)
-    ropeModeler.getTotalListOfPositionsForLength(10)
+    ropeModeler.getUniquePositionsVisitedForRope(10)
 }

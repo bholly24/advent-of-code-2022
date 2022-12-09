@@ -11,41 +11,43 @@ class RopeModeler(filePath: String) {
         ropeMovements = readInRopeMovements(filePath)
     }
 
-    fun getTotalListOfPositionsForLength(length: Int): Int {
+    fun getUniquePositionsVisitedForRope(length: Int): Int {
         tailVisitedCoords = mutableSetOf(Coord(0, 0).toList())
         val positionsToModel = MutableList(length) {Coord(0, 0)}
-        ropeMovements.forEach { moveHead(positionsToModel, it) }
+        ropeMovements.forEach { updateRopePosition(positionsToModel, it) }
         println("Total unique positions seen by the tail for a rope of length $length is ${tailVisitedCoords.size}")
         return tailVisitedCoords.size
     }
 
-    private fun moveHead(positions: List<Coord>, move: List<Coord>) {
+    private fun updateRopePosition(position: List<Coord>, move: List<Coord>) {
         move.forEach {
-            positions.forEachIndexed { index, coord ->
+            position.forEachIndexed { index, coord ->
                 if (index == 0) {
                     coord.update(it)
                 } else {
-                    resolvePositionFromPrevious(coord, positions[index - 1])
+                    resolvePositionFromPrevious(coord, position[index - 1])
                 }
             }
-            tailVisitedCoords.add(positions.last().toList())
+            tailVisitedCoords.add(position.last().toList())
         }
     }
 
     private fun resolvePositionFromPrevious(position: Coord, previous: Coord) {
-        val tailXDist = position.getXDistFrom(previous)
-        val tailYDist = position.getYDistFrom(previous)
-
-        var xMove = getInitialMoveFromDist(tailXDist)
-        var yMove = getInitialMoveFromDist(tailYDist)
-
-        if (xMove != 0 && abs(tailYDist) == 1) {
-            yMove = tailYDist
-        } else if (yMove != 0 && abs(tailXDist) == 1) {
-            xMove = tailXDist
+        val xDist = position.getXDistFrom(previous)
+        val yDist = position.getYDistFrom(previous)
+        var xMove = getInitialMoveFromDist(xDist)
+        var yMove = getInitialMoveFromDist(yDist)
+        if (ropeIsStretchedDiagonallyForDimension(xDist, yDist)) {
+            yMove = yDist
+        } else if (ropeIsStretchedDiagonallyForDimension(yDist, xDist)) {
+            xMove = xDist
         }
 
         position.update(Coord(xMove, yMove))
+    }
+
+    private fun ropeIsStretchedDiagonallyForDimension(mainDimension: Int, otherDimension: Int): Boolean {
+        return mainDimension !in -1..1 && abs(otherDimension) == 1
     }
 
     private fun getInitialMoveFromDist(dist: Int): Int {

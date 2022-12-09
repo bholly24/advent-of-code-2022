@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7009082-5cff-466d-a749-d393985d418c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day09/Coord.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day09/input-long.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day09/RopeModeler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day09/RopeModeler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fileHelper/FileHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fileHelper/FileHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day09/RopeModelerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day09/RopeModelerTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +65,7 @@
       <recent name="day05" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="JUnit.RopeModelerTest (3)">
     <configuration name="RopeModelerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
@@ -102,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RopeModelerTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RopeModelerTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RopeModelerTest (3)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.RopeModelerTest (2)" />
         <item itemvalue="JUnit.RopeModelerTest (1)" />
         <item itemvalue="JUnit.RopeModelerTest" />
-        <item itemvalue="JUnit.RopeModelerTest (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +155,7 @@
       <workItem from="1669933606038" duration="88000" />
       <workItem from="1669933697357" duration="14551000" />
       <workItem from="1670182411744" duration="11426000" />
-      <workItem from="1670416246399" duration="32493000" />
+      <workItem from="1670416246399" duration="32795000" />
     </task>
     <servers />
   </component>
