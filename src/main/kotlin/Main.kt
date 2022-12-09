@@ -6,6 +6,7 @@ import day05.StackOrganizer
 import day06.SignalDetector
 import day07.DirectoryParser
 import day08.TreeCounter
+import day09.RopeModeler
 import fileHelper.FileHelper
 import printer.AdventPrinter
 
@@ -59,4 +60,10 @@ fun main() {
     treeCounter.getTotalVisibleTrees()
     AdventPrinter.partTwo(8)
     treeCounter.getMaxScenicScore()
+
+    AdventPrinter.partOne(9)
+    val ropeModeler = RopeModeler(FileHelper.puzzleFileForDay(9))
+    ropeModeler.getTotalListOfPositionsForLength(2)
+    AdventPrinter.partTwo(9)
+    ropeModeler.getTotalListOfPositionsForLength(10)
 }

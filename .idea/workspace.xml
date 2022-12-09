@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7009082-5cff-466d-a749-d393985d418c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day09/Coord.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day09/input-long.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day07/DirectoryParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day07/DirectoryParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day07/DirectoryParserTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day07/DirectoryParserTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day09/RopeModeler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day09/RopeModeler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fileHelper/FileHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fileHelper/FileHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day09/RopeModelerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day09/RopeModelerTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
         <option value="Kotlin Enum" />
         <option value="Kotlin Object" />
         <option value="Kotlin Data Class" />
-        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -60,69 +64,69 @@
       <recent name="day03" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day09" />
       <recent name="day08" />
       <recent name="day07" />
       <recent name="day06" />
       <recent name="day05" />
-      <recent name="day04" />
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="DirectoryParserTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RopeModelerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.*" />
+          <option name="PATTERN" value="day09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day07" />
-      <option name="MAIN_CLASS_NAME" value="day07.DirectoryParserTest" />
+      <option name="PACKAGE_NAME" value="day09" />
+      <option name="MAIN_CLASS_NAME" value="day09.RopeModelerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeCounterTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RopeModelerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="day09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08" />
-      <option name="MAIN_CLASS_NAME" value="day08.TreeCounterTest" />
+      <option name="PACKAGE_NAME" value="day09" />
+      <option name="MAIN_CLASS_NAME" value="day09.RopeModelerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeCounterTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RopeModelerTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="day09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08" />
-      <option name="MAIN_CLASS_NAME" value="day08.TreeCounterTest" />
+      <option name="PACKAGE_NAME" value="day09" />
+      <option name="MAIN_CLASS_NAME" value="day09.RopeModelerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RopeModelerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="day09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08" />
-      <option name="MAIN_CLASS_NAME" value="day08.TreeCounterTest" />
+      <option name="PACKAGE_NAME" value="day09" />
+      <option name="MAIN_CLASS_NAME" value="day09.RopeModelerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="JUnit.DirectoryParserTest (1)" />
-        <item itemvalue="JUnit.TreeCounterTest" />
-        <item itemvalue="JUnit.TreeCounterTest (3)" />
-        <item itemvalue="JUnit.TreeCounterTest (2)" />
+        <item itemvalue="JUnit.RopeModelerTest (2)" />
+        <item itemvalue="JUnit.RopeModelerTest (1)" />
+        <item itemvalue="JUnit.RopeModelerTest" />
+        <item itemvalue="JUnit.RopeModelerTest (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +161,7 @@
       <workItem from="1669933606038" duration="88000" />
       <workItem from="1669933697357" duration="14551000" />
       <workItem from="1670182411744" duration="11426000" />
-      <workItem from="1670416246399" duration="26069000" />
+      <workItem from="1670416246399" duration="32493000" />
     </task>
     <servers />
   </component>
