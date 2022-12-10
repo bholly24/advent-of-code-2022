@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7009082-5cff-466d-a749-d393985d418c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day09/RopeModeler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day09/RopeModeler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day10/SignalCalculators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day10/SignalParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day10/SignalDecoderTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day10/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
         <option value="Kotlin Object" />
         <option value="Kotlin Data Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -33,20 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -58,69 +67,69 @@
       <recent name="day03" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day10" />
       <recent name="day09" />
       <recent name="day08" />
       <recent name="day07" />
       <recent name="day06" />
-      <recent name="day05" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RopeModelerTest (3)">
-    <configuration name="RopeModelerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="SignalDecoderTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09" />
-      <option name="MAIN_CLASS_NAME" value="day09.RopeModelerTest" />
+      <option name="PACKAGE_NAME" value="day10" />
+      <option name="MAIN_CLASS_NAME" value="day10.SignalDecoderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RopeModelerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignalDecoderTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09" />
-      <option name="MAIN_CLASS_NAME" value="day09.RopeModelerTest" />
+      <option name="PACKAGE_NAME" value="day10" />
+      <option name="MAIN_CLASS_NAME" value="day10.SignalDecoderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RopeModelerTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignalDecoderTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09" />
-      <option name="MAIN_CLASS_NAME" value="day09.RopeModelerTest" />
+      <option name="PACKAGE_NAME" value="day10" />
+      <option name="MAIN_CLASS_NAME" value="day10.SignalDecoderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RopeModelerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignalDecoderTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09" />
-      <option name="MAIN_CLASS_NAME" value="day09.RopeModelerTest" />
+      <option name="PACKAGE_NAME" value="day10" />
+      <option name="MAIN_CLASS_NAME" value="day10.SignalDecoderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RopeModelerTest (3)" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="JUnit.RopeModelerTest (2)" />
-        <item itemvalue="JUnit.RopeModelerTest (1)" />
-        <item itemvalue="JUnit.RopeModelerTest" />
+        <item itemvalue="JUnit.SignalDecoderTest (3)" />
+        <item itemvalue="JUnit.SignalDecoderTest (2)" />
+        <item itemvalue="JUnit.SignalDecoderTest (1)" />
+        <item itemvalue="JUnit.SignalDecoderTest (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +164,7 @@
       <workItem from="1669933606038" duration="88000" />
       <workItem from="1669933697357" duration="14551000" />
       <workItem from="1670182411744" duration="11426000" />
-      <workItem from="1670416246399" duration="32795000" />
+      <workItem from="1670416246399" duration="37002000" />
     </task>
     <servers />
   </component>

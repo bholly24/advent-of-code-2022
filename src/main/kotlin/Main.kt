@@ -7,6 +7,8 @@ import day06.SignalDetector
 import day07.DirectoryParser
 import day08.TreeCounter
 import day09.RopeModeler
+import day10.SignalCalculators
+import day10.SignalParser
 import fileHelper.FileHelper
 import printer.AdventPrinter
 
@@ -66,4 +68,10 @@ fun main() {
     ropeModeler.getUniquePositionsVisitedForRope(2)
     AdventPrinter.partTwo(9)
     ropeModeler.getUniquePositionsVisitedForRope(10)
+
+    AdventPrinter.partOne(10)
+    val signalDecoder = SignalParser(FileHelper.puzzleFileForDay(10))
+    SignalCalculators.getSignalStrengthAtInterval(signalDecoder.getInstructions())
+    AdventPrinter.partTwo(10)
+    SignalCalculators.printSpritePosition(signalDecoder.getInstructions())
 }
