@@ -9,6 +9,7 @@ import day08.TreeCounter
 import day09.RopeModeler
 import day10.SignalCalculators
 import day10.SignalParser
+import day11.MonkeyTossTracker
 import fileHelper.FileHelper
 import printer.AdventPrinter
 
@@ -74,4 +75,8 @@ fun main() {
     SignalCalculators.getSignalStrengthAtInterval(signalDecoder.getInstructions())
     AdventPrinter.partTwo(10)
     SignalCalculators.printSpritePosition(signalDecoder.getInstructions())
+
+    AdventPrinter.partTwo(11)
+    val monkeyTossTracker = MonkeyTossTracker(FileHelper.puzzleFileForDay(11))
+    monkeyTossTracker.findMostMonkeyBusinessOverTwentyRounds()
 }

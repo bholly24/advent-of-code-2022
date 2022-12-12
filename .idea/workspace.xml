@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7009082-5cff-466d-a749-d393985d418c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day10/SignalCalculators.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day10/SignalParser.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day10/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day10/SignalDecoderTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/Monkey.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/MonkeyTossTracker.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day11/MonkeyTossTrackerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day11/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -23,9 +22,9 @@
         <option value="Kotlin Enum" />
         <option value="Kotlin Object" />
         <option value="Kotlin Data Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -41,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -67,88 +66,98 @@
       <recent name="day03" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day11" />
       <recent name="day10" />
       <recent name="day09" />
       <recent name="day08" />
       <recent name="day07" />
-      <recent name="day06" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="SignalDecoderTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MonkeyTossTrackerTest">
+    <configuration name="MonkeyTossTrackerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.*" />
+          <option name="PATTERN" value="day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day10" />
-      <option name="MAIN_CLASS_NAME" value="day10.SignalDecoderTest" />
+      <option name="PACKAGE_NAME" value="day11" />
+      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignalDecoderTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MonkeyTossTrackerTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.*" />
+          <option name="PATTERN" value="day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day10" />
-      <option name="MAIN_CLASS_NAME" value="day10.SignalDecoderTest" />
+      <option name="PACKAGE_NAME" value="day11" />
+      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignalDecoderTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MonkeyTossTrackerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.*" />
+          <option name="PATTERN" value="day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day10" />
-      <option name="MAIN_CLASS_NAME" value="day10.SignalDecoderTest" />
+      <option name="PACKAGE_NAME" value="day11" />
+      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignalDecoderTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MonkeyTossTrackerTest.findMostMonkeyBusinessTenThousandRounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.*" />
+          <option name="PATTERN" value="day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day10" />
-      <option name="MAIN_CLASS_NAME" value="day10.SignalDecoderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="day11" />
+      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
+      <option name="METHOD_NAME" value="findMostMonkeyBusinessTenThousandRounds" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="MonkeyTossTrackerTest.findMostMonkeyBusinessTwentyRounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day11" />
+      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
+      <option name="METHOD_NAME" value="findMostMonkeyBusinessTwentyRounds" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="JUnit.SignalDecoderTest (3)" />
-        <item itemvalue="JUnit.SignalDecoderTest (2)" />
-        <item itemvalue="JUnit.SignalDecoderTest (1)" />
-        <item itemvalue="JUnit.SignalDecoderTest (5)" />
+        <item itemvalue="JUnit.MonkeyTossTrackerTest" />
+        <item itemvalue="JUnit.MonkeyTossTrackerTest.findMostMonkeyBusinessTenThousandRounds" />
+        <item itemvalue="JUnit.MonkeyTossTrackerTest.findMostMonkeyBusinessTwentyRounds" />
+        <item itemvalue="JUnit.MonkeyTossTrackerTest (1)" />
+        <item itemvalue="JUnit.MonkeyTossTrackerTest (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +173,10 @@
       <workItem from="1669933606038" duration="88000" />
       <workItem from="1669933697357" duration="14551000" />
       <workItem from="1670182411744" duration="11426000" />
-      <workItem from="1670416246399" duration="37002000" />
+      <workItem from="1670416246399" duration="37344000" />
+      <workItem from="1670683589439" duration="705000" />
+      <workItem from="1670763125948" duration="6892000" />
+      <workItem from="1670770049483" duration="1123000" />
     </task>
     <servers />
   </component>
@@ -178,6 +190,15 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="9" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.ConcurrentModificationException" package="java.util" />
+          <option name="timeStamp" value="15" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day11/MonkeyTossTracker.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
