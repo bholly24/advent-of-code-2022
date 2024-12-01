@@ -4,12 +4,14 @@ import java.lang.Exception
 
 class AlmanacRangeParser {
     private var seedRanges: MutableList<LongRange> = mutableListOf()
-    private var lowestSeed: Long = 0
+    private var lowestSeed: Long = Long.MAX_VALUE
     private val ranges: MutableList<List<SeedMap>> = mutableListOf()
 
     fun getLowestLocation(lines: List<String>): Long {
         parseData(lines)
+        var seedsConsidered = 0
         seedRanges.forEach { seedRange ->
+            println("Another seed processed")
             seedRange.forEach { seed ->
                 var updatedSeed = seed
                 ranges.forEach { range ->
@@ -20,31 +22,51 @@ class AlmanacRangeParser {
                         // No need to update again
                     }
                 }
-                if (lowestSeed == 0L) {
-                    lowestSeed = updatedSeed
-                } else if (updatedSeed < lowestSeed) {
+
+                seedsConsidered += 1
+                if (updatedSeed < lowestSeed) {
+                    println("Is updated $updatedSeed actually less than $lowestSeed")
                     lowestSeed = updatedSeed
                 }
             }
         }
 
-        println("The lowest location for starting seeds is ${lowestSeed}")
+        println("Seeds considered $seedsConsidered")
+        println("The lowest location for starting seeds is $lowestSeed")
         return lowestSeed
     }
+
+//    private suspend fun processSeedRange(seedRange: LongRange): Long {
+//        var minSeed = Long.M
+//        seedRange.forEach { seed ->
+//            var updatedSeed = seed
+//            ranges.forEach { range ->
+//                val map = range.find { seedMap -> seedMap.containsSeed(updatedSeed) }
+//                if (map != null) {
+//                    updatedSeed = map.getMappedValue(updatedSeed)
+//                } else {
+//                    // No need to update again
+//                }
+//            }
+//            minSeed = minSeed ?: updatedSeed
+//            if (updatedSeed < minSeed!!) {
+//                minSeed = updatedSeed
+//            }
+//        }
+//        return minSeed ?: Long.MAX_VALUE
+//    }
 
     private fun parseData(lines: List<String>) {
         var rangeInProgress: MutableList<SeedMap> = mutableListOf()
         lines.forEach {
             if (it.contains("seeds:")) {
-                val seedAggregator = mutableListOf<Long>()
                 it.split(": ")[1].split(" ")
                     .map { s -> s.toLong() }
                     .chunked(2)
                     .forEach {
-                        val t = it[0]..(it[0] + it[1])
+                        val t = it[0]..(it[0] + it[1] - 1)
                         seedRanges.add(t)
                     }
-
             } else if (it.contains("-to-")) {
                 if (rangeInProgress.isNotEmpty()) {
                     ranges.add(rangeInProgress)

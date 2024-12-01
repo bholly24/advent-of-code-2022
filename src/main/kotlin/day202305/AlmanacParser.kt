@@ -18,7 +18,6 @@ class AlmanacParser {
                         seed
                     }
                 }
-                println("New seeds are $seeds")
             }
 
         println("The lowest location for starting seeds is ${seeds.min()}")
@@ -56,7 +55,7 @@ class AlmanacParser {
 }
 
 data class SeedMap(val start: Long, val mapper: Long, val range: Long) {
-    private val max = start + range
+    private val max = start + range - 1
     private val diff = mapper - start
 
     fun containsSeed(seed: Long) = seed in start..max
