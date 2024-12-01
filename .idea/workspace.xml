@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f7009082-5cff-466d-a749-d393985d418c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/Monkey.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/MonkeyTossTracker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day11/MonkeyTossTrackerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day11/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202306/BoatRaceParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202306/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202307/CamelCard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202307/CamelScore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202307/CardParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202307/JokerCamelHand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202307/Score.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202307/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202308/InstructionParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202308/MultipleInstructionParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202308/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202309/SequenceEvaluator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202309/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day202310/PipeMapper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day202306/BoatRaceParserTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day202307/CardParserTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day202308/InstructionParserTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day202308/MultipleInstructionParserTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day202309/SequenceEvaluatorTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HillClimbing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/HillClimbing.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day00/LineCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day00/LineCounter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day00/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day00/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day11/Monkey.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day11/Monkey.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day11/MonkeyTossTracker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day11/MonkeyTossTracker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day11/PrimeFactorAccumulator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day11/PrimeFactorAccumulator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day11/PrimeFactorization.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day11/PrimeFactorization.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day202302/MarbleCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day202302/MarbleCounter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day202302/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day202302/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day202303/SchematicParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day202303/SchematicParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day202303/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day202303/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day202304/TicketParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day202304/TicketParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day202304/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day202304/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day202305/AlmanacParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day202305/AlmanacParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day202305/AlmanacRangeParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day202305/AlmanacRangeParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fileHelper/FileHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fileHelper/FileHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day00/LineCounterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day00/LineCounterTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day11/MonkeyTossTrackerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day11/MonkeyTossTrackerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day202302/MarbleCounterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day202302/MarbleCounterTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day202303/SchematicParserTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day202303/SchematicParserTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day202304/TicketParserTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day202304/TicketParserTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day202305/AlmanacParserTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day202305/AlmanacParserTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day202305/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day202305/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +58,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Interface" />
-        <option value="Kotlin Enum" />
         <option value="Kotlin Object" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Class" />
-        <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -48,11 +89,16 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -63,101 +109,95 @@
       <recent name="$PROJECT_DIR$/src/test/kotlin/day08" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="day202309" />
       <recent name="day03" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="day11" />
-      <recent name="day10" />
-      <recent name="day09" />
-      <recent name="day08" />
-      <recent name="day07" />
+      <recent name="" />
+      <recent name="day202308" />
+      <recent name="day202307" />
+      <recent name="day202306" />
+      <recent name="day202305" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MonkeyTossTrackerTest">
-    <configuration name="MonkeyTossTrackerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="MultipleInstructionParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day202308.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
+      <option name="PACKAGE_NAME" value="day202308" />
+      <option name="MAIN_CLASS_NAME" value="day202308.MultipleInstructionParserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonkeyTossTrackerTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceEvaluatorTest.getNextValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day202309.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonkeyTossTrackerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonkeyTossTrackerTest.findMostMonkeyBusinessTenThousandRounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
-      <option name="METHOD_NAME" value="findMostMonkeyBusinessTenThousandRounds" />
+      <option name="PACKAGE_NAME" value="day202309" />
+      <option name="MAIN_CLASS_NAME" value="day202309.SequenceEvaluatorTest" />
+      <option name="METHOD_NAME" value="getNextValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonkeyTossTrackerTest.findMostMonkeyBusinessTwentyRounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceEvaluatorTest.getNextValuesWithRecursion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day202309.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.MonkeyTossTrackerTest" />
-      <option name="METHOD_NAME" value="findMostMonkeyBusinessTwentyRounds" />
+      <option name="PACKAGE_NAME" value="day202309" />
+      <option name="MAIN_CLASS_NAME" value="day202309.SequenceEvaluatorTest" />
+      <option name="METHOD_NAME" value="getNextValuesWithRecursion" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequenceEvaluatorTest.getPriorValuesWithRecursion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day202309.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day202309" />
+      <option name="MAIN_CLASS_NAME" value="day202309.SequenceEvaluatorTest" />
+      <option name="METHOD_NAME" value="getPriorValuesWithRecursion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="advent-of-code-2022" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MonkeyTossTrackerTest" />
-        <item itemvalue="JUnit.MonkeyTossTrackerTest.findMostMonkeyBusinessTenThousandRounds" />
-        <item itemvalue="JUnit.MonkeyTossTrackerTest.findMostMonkeyBusinessTwentyRounds" />
-        <item itemvalue="JUnit.MonkeyTossTrackerTest (1)" />
-        <item itemvalue="JUnit.MonkeyTossTrackerTest (5)" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.SequenceEvaluatorTest.getPriorValuesWithRecursion" />
+        <item itemvalue="JUnit.SequenceEvaluatorTest.getNextValuesWithRecursion" />
+        <item itemvalue="JUnit.SequenceEvaluatorTest.getNextValues" />
+        <item itemvalue="JUnit.MultipleInstructionParserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +216,20 @@
       <workItem from="1670416246399" duration="37344000" />
       <workItem from="1670683589439" duration="705000" />
       <workItem from="1670763125948" duration="6892000" />
-      <workItem from="1670770049483" duration="1123000" />
+      <workItem from="1670770049483" duration="7513000" />
+      <workItem from="1679359199062" duration="2226000" />
+      <workItem from="1696436926391" duration="33910000" />
+      <workItem from="1701788686910" duration="301000" />
+      <workItem from="1701788999201" duration="37956000" />
+      <workItem from="1702051298469" duration="59000" />
+      <workItem from="1702051360388" duration="11000" />
+      <workItem from="1702051382219" duration="207000" />
+      <workItem from="1702051600766" duration="104000" />
+      <workItem from="1702051730057" duration="90000" />
+      <workItem from="1702051822399" duration="67000" />
+      <workItem from="1702051899788" duration="21478000" />
+      <workItem from="1733018596662" duration="53000" />
+      <workItem from="1733048576247" duration="1364000" />
     </task>
     <servers />
   </component>
@@ -196,8 +249,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/day11/MonkeyTossTracker.kt</url>
-          <line>9</line>
-          <option name="timeStamp" value="16" />
+          <line>13</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day202305/AlmanacRangeParser.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

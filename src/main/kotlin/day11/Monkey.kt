@@ -1,16 +1,14 @@
 package day11
 
-import java.math.BigInteger
-
 class Monkey(
     private val idNumber: Int,
-    private val items: MutableList<Int>,
-    private val worryModifier: (worry: Int) -> Int,
-    private val reliefModifier: (worry: Int) -> Int,
-    private val arithmeticTest: (worry: Int) -> Boolean,
+    private val items: MutableList<Item>,
+    private val worryModifier: (worry: Long) -> Long,
+    private val reliefModifier: (worry: Long) -> Long,
+    private val arithmeticTest: (worry: Long) -> Boolean
 ) {
-    private lateinit var monkeyWhenTrue: Monkey
-    private lateinit var monkeyWhenFalse: Monkey
+    private lateinit var monkeyIfTrue: Monkey
+    private lateinit var monkeyIfFalse: Monkey
     private var itemsInspected = 0
 
     fun tossAllItems() {
@@ -19,28 +17,45 @@ class Monkey(
 
     fun getItemsInspected() = itemsInspected
 
+    fun getItemLists() {
+        items.forEach { println("$idNumber: ${it.lastIds}")}
+    }
+
     private fun tossItem() {
         if (items.size > 0) {
-            var item = items.first()
+            val item = items.first()
             items.removeAt(0)
             itemsInspected += 1
-            item = worryModifier(item)
-            item = reliefModifier(item)
-            if (arithmeticTest(item)) monkeyWhenTrue.addItem(item) else monkeyWhenFalse.addItem(item)
+                item.value = worryModifier(item.value)
+                item.value = reliefModifier(item.value)
+            if (arithmeticTest(item.value)) {
+                monkeyIfTrue.addItem(item)
+                item.moveToMonkey(monkeyIfTrue.idNumber)
+            } else {
+                monkeyIfFalse.addItem(item)
+                item.moveToMonkey(monkeyIfFalse.idNumber)
+            }
         }
     }
 
-    fun addMonkeyIfTrue(monkey: Monkey) {
-        monkeyWhenTrue = monkey
+    fun setMonkeyIfTrue(monkey: Monkey) {
+        monkeyIfTrue = monkey
     }
 
-    fun addMonkeyIfFalse(monkey: Monkey) {
-        monkeyWhenFalse = monkey
+    fun setMonkeyIfFalse(monkey: Monkey) {
+        monkeyIfFalse = monkey
     }
 
     fun getId() = idNumber
 
-    fun addItem(item: Int) {
+    private fun addItem(item: Item) {
         items.add(item)
+    }
+}
+
+class Item(var value: Long) {
+    var lastIds = mutableListOf<Int>()
+    fun moveToMonkey(id: Int) {
+         lastIds.add(id)
     }
 }

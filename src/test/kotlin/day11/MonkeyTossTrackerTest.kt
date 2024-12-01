@@ -14,6 +14,6 @@ internal class MonkeyTossTrackerTest {
 
     @Test
     fun findMostMonkeyBusinessTenThousandRounds() {
-        assertEquals(2713310158, monkeyTossTracker.findMostMonkeyBusinessOverTenThousandRounds())
+        assertEquals(2713310158L, monkeyTossTracker.findMostMonkeyBusinessOverTenThousandRounds())
     }
 }

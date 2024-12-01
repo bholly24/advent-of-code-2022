@@ -1,3 +1,4 @@
+import day00.LineCounter
 import day01.CalorieItemizer
 import day02.RockPaperScissorsCalculator
 import day03.RucksackReorganizer
@@ -10,6 +11,16 @@ import day09.RopeModeler
 import day10.SignalCalculators
 import day10.SignalParser
 import day11.MonkeyTossTracker
+import day202302.MarbleCounter
+import day202303.SchematicParser
+import day202304.TicketParser
+import day202305.AlmanacParser
+import day202305.AlmanacRangeParser
+import day202306.BoatRaceParser
+import day202307.CardParser
+import day202308.InstructionParser
+import day202308.MultipleInstructionParser
+import day202309.SequenceEvaluator
 import fileHelper.FileHelper
 import printer.AdventPrinter
 
@@ -17,6 +28,54 @@ fun main() {
     AdventPrinter.introduction()
 
     AdventPrinter.partOne(1)
+    val t = LineCounter()
+//    val lines = t.countLines(t.getLines(FileHelper.puzzleFileForDay(0)))
+//    print("Lines total $lines")
+    val linesAfterConversion = t.countLines(t.convertLinesToNumbers(FileHelper.getLines(FileHelper.puzzleFileForDay(0))))
+    println("Lines total after conversion $linesAfterConversion")
+
+    val counter = MarbleCounter()
+    val linesForCounter = counter.getLines(FileHelper.puzzleFileForDay(202302))
+    val gamesPossible = counter.determinePossibleGames(linesForCounter)
+    println("Possible games added by id is $gamesPossible")
+
+    val powerSum = counter.calculateCubePower(linesForCounter)
+    println("Total power sum is $powerSum")
+
+    val schematicReader = SchematicParser(FileHelper.getLines(FileHelper.puzzleFileForDay(202303)))
+    schematicReader.testThirty()
+    schematicReader.findGears()
+
+    val ticketParser = TicketParser()
+    ticketParser.getTicketValues(FileHelper.getLines(FileHelper.puzzleFileForDay(202304)))
+    ticketParser.getRecursiveTicketValues(FileHelper.getLines(FileHelper.puzzleFileForDay(202304)))
+
+    // Comment out for speed
+//    val almanacParser = AlmanacParser()
+//    almanacParser.getLowestLocation(FileHelper.getLines(FileHelper.puzzleFileForDay(202305)))
+//
+//    val almanacRangeParser = AlmanacRangeParser()
+//    almanacRangeParser.getLowestLocation(FileHelper.getLines(FileHelper.puzzleFileForDay(202305)))
+
+    val boatRaceParser = BoatRaceParser()
+    boatRaceParser.calculateMaxDistance(FileHelper.getLines(FileHelper.puzzleFileForDay(202306)))
+    boatRaceParser.calculateMaxDistanceAltogether(FileHelper.getLines(FileHelper.puzzleFileForDay(202306)))
+
+    val cardParser = CardParser()
+    cardParser.getHandsByRank(FileHelper.getLines(FileHelper.puzzleFileForDay(202307)))
+    cardParser.getJokerHandsByRank(FileHelper.getLines(FileHelper.puzzleFileForDay(202307)))
+
+    val instructionParser = InstructionParser()
+    instructionParser.getTotalInstructionsToZZZ(FileHelper.getLines(FileHelper.puzzleFileForDay(202308)))
+
+    val multipleInstructionParser = MultipleInstructionParser()
+    multipleInstructionParser.getTotalInstructionsToZZZ(FileHelper.getLines(FileHelper.puzzleFileForDay(202308)))
+
+    val sequenceEvaluator = SequenceEvaluator()
+    sequenceEvaluator.getNextValues(FileHelper.getLines(FileHelper.puzzleFileForDay(202309)))
+    sequenceEvaluator.getNextValuesWithRecursion(FileHelper.getLines(FileHelper.puzzleFileForDay(202309)))
+    sequenceEvaluator.getPriorValuesWithRecursion(FileHelper.getLines(FileHelper.puzzleFileForDay(202309)))
+
     val itemizer = CalorieItemizer(FileHelper.puzzleFileForDay(1))
     itemizer.getTotalCaloriesForTopElves(1)
     AdventPrinter.partTwo(1)
